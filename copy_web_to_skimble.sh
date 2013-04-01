@@ -3,4 +3,6 @@
 cd ~/dev/bootstrap
 make clean
 make bootstrap
-cp -R bootstrap/* ~/myTickList/public/bootstrap/
+cp bootstrap/js/* ~/myTickList/public/javascripts/
+cp bootstrap/css/* ~/myTickList/public/stylesheets/
+cp bootstrap/img/* ~/myTickList/public/img/
